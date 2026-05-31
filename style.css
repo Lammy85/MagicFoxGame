@@ -1,0 +1,61 @@
+#player,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#enemy_fly,
+#enemy_plant,
+#enemy_spider_big,
+#enemy_zombie,
+#enemy_bat,
+#enemy_hand,
+#enemy_zombie2,
+#enemy_ghost,
+#enemy_skeleton,
+#fire,
+#fire2,
+#collisionAnimation,
+#lives,
+#livesUI,
+#energy,
+#speed,
+#shadow1,
+#rollButton,
+#buttonUp,
+#buttonDown,
+#buttonLeft,
+#buttonRight,
+#bg2layer1,
+#bg2layer2,
+#bg2layer3,
+#bg2layer4,
+#bg2layer5,
+#bg3layer1,
+#bg3layer2,
+#bg3layer3,
+#bg3layer4,
+#bg3layer5,
+#cave1,
+#cave2,
+#cave3,
+#cave4,
+#cave5 {
+    display: none;
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
