@@ -59,3 +59,49 @@
     max-width: 100%;
     max-height: 100%;
 }
+
+#fullScreenButton {
+    color: rgb(135, 0, 161);
+    border-color: rgb(135, 0, 161);
+    transition-duration: 0.4s;
+}
+
+#fullScreenButton:hover {
+    color: white;
+    background-color: rgb(135, 0, 161);
+}
+
+#fullScreenContainer {
+    position: relative;
+    max-width: 900px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: -50px;
+}
+#volumeControl{
+    position: relative;
+    max-width: 600px;   
+    left: 50%;
+    margin-left: 100px;
+    transform: translate(-50%);
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+  .form-range {
+    position: relative;
+    width: 200px;
+    vertical-align: middle;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    background: rgb(135, 0, 161);;
+    cursor: pointer;
+  }
+  
+  .form-range::-moz-range-thumb {
+    background:rgb(135, 0, 161);;
+    cursor: pointer;
+  }
